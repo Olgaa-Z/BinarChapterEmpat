@@ -1,25 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
-    android:gravity="center"
     android:orientation="vertical"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".kedua.AlertDialogFragment">
 
-    <Button
-        android:id="@+id/pertama"
-        android:text="Pertama"
-        android:layout_width="wrap_content"
+    <EditText
+        android:id="@+id/et_umur"
+        android:inputType="number"
+        android:hint="Input Umur"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
     <Button
-        android:id="@+id/kedua"
-        android:text="Kedua"
+        android:id="@+id/proses"
+        android:text="Proses"
+        android:layout_gravity="center"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
-
-
 
 </LinearLayout>

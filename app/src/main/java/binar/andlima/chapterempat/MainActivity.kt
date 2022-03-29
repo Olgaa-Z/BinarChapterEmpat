@@ -3,6 +3,7 @@ package binar.andlima.chapterempat
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import binar.andlima.chapterempat.kedua.AlertDialogActivity
 import binar.andlima.chapterempat.pertama.FirstActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -13,6 +14,10 @@ class MainActivity : AppCompatActivity() {
 
         pertama.setOnClickListener {
             startActivity(Intent(this, FirstActivity::class.java))
+        }
+        kedua.setOnClickListener {
+            startActivity(Intent(this, AlertDialogActivity::class.java))
+
         }
     }
 }
