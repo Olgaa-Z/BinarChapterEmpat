@@ -4,13 +4,17 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/BinarAcademy/app/ChapterEMpat/app/src/main/res/layout/activity_alert_dialog.xml" value="0.2" />
+        <entry key="..\:/BinarAcademy/app/ChapterEMpat/app/src/main/res/layout/activity_data_mahasiswa.xml" value="0.146875" />
         <entry key="..\:/BinarAcademy/app/ChapterEMpat/app/src/main/res/layout/activity_first.xml" value="0.2" />
         <entry key="..\:/BinarAcademy/app/ChapterEMpat/app/src/main/res/layout/activity_main.xml" value="0.18802083333333333" />
+        <entry key="..\:/BinarAcademy/app/ChapterEMpat/app/src/main/res/layout/activity_main_sf.xml" value="0.2" />
+        <entry key="..\:/BinarAcademy/app/ChapterEMpat/app/src/main/res/layout/activity_main_sfdua.xml" value="0.2" />
         <entry key="..\:/BinarAcademy/app/ChapterEMpat/app/src/main/res/layout/activity_nav_component_pertama.xml" value="0.2" />
         <entry key="..\:/BinarAcademy/app/ChapterEMpat/app/src/main/res/layout/custom_dialog.xml" value="0.2" />
         <entry key="..\:/BinarAcademy/app/ChapterEMpat/app/src/main/res/layout/fragment_alert_dialog.xml" value="0.1" />
         <entry key="..\:/BinarAcademy/app/ChapterEMpat/app/src/main/res/layout/fragment_screen_dua.xml" value="0.2" />
         <entry key="..\:/BinarAcademy/app/ChapterEMpat/app/src/main/res/layout/fragment_screen_satu.xml" value="0.2" />
+        <entry key="..\:/BinarAcademy/app/ChapterEMpat/app/src/main/res/layout/item_mhs_adapter.xml" value="0.176" />
       </map>
     </option>
   </component>

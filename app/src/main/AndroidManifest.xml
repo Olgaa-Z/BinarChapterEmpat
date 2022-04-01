@@ -10,6 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ChapterEMpat">
         <activity
+            android:name=".keempat.MainSFDua"
+            android:exported="false" />
+        <activity
+            android:name=".keempat.MainSF"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ketiga.DataMahasiswaActivity"
+            android:exported="false" />
+        <activity
             android:name=".kedua.AlertDialogActivity"
             android:exported="false" />
         <activity
@@ -22,11 +37,7 @@
         <activity
             android:name=".MainActivity"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
     </application>
 
