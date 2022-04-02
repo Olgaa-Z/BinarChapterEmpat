@@ -10,11 +10,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ChapterEMpat">
         <activity
+            android:name=".kelima.MainLimaActivity"
+            android:exported="false" />
+        <activity
             android:name=".keempat.MainSFDua"
             android:exported="false" />
         <activity
             android:name=".keempat.MainSF"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -36,9 +39,7 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
-
-        </activity>
+            android:exported="true"></activity>
     </application>
 
 </manifest>
